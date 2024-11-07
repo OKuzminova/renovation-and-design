@@ -1,0 +1,110 @@
+#portfolio {
+  margin-bottom: 136px;
+}
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  grid-template-rows: repeat(4, 270px);
+  gap: 10px;
+  grid-template-areas:
+  "card1 card1 card2"
+  "card3 card4 card2"
+  "card5 card6 card7"
+  "card5 card8 card8";
+  margin-bottom: 64px;
+  &__card1 {
+    grid-area: card1;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../../img/portfolio/1.jpg');
+    background-repeat: no-repeat;
+    &:hover {
+      background: url('../../img/portfolio/1.jpg');
+      cursor: pointer;
+    }
+  }
+  &__card2 {
+    grid-area: card2;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../../img/portfolio/2.jpg');
+    background-repeat: no-repeat;
+    &:hover {
+      background: url('../../img/portfolio/2.jpg');
+      cursor: pointer;
+    }
+  }
+  &__card3 {
+    grid-area: card3;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../../img/portfolio/3.jpg');
+    background-repeat: no-repeat;
+    &:hover {
+      background: url('../../img/portfolio/3.jpg');
+      cursor: pointer;
+    }
+  }
+  &__card4 {
+    grid-area: card4;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../../img/portfolio/4.jpg');
+    background-repeat: no-repeat;
+    &:hover {
+      background: url('../../img/portfolio/4.jpg');
+      cursor: pointer;
+    }
+  }
+  &__card5 {
+    grid-area: card5;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../../img/portfolio/5.jpg');
+    background-repeat: no-repeat;
+    &:hover {
+      background: url('../../img/portfolio/5.jpg');
+      cursor: pointer;
+    }
+  }
+  &__card6 {
+    grid-area: card6;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../../img/portfolio/6.jpg');
+    background-repeat: no-repeat;
+    &:hover {
+      background: url('../../img/portfolio/6.jpg');
+      cursor: pointer;
+    }
+  }
+  &__card7 {
+    grid-area: card7;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../../img/portfolio/7.jpg');
+    background-repeat: no-repeat;
+    &:hover {
+      background: url('../../img/portfolio/7.jpg');
+      cursor: pointer;
+    }
+  }
+  &__card8 {
+    grid-area: card8;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../../img/portfolio/8.jpg');
+    background-repeat: no-repeat;
+    &:hover {
+      background: url('../../img/portfolio/8.jpg');
+      cursor: pointer;
+    }
+  }
+}
+
+.portfolio__title {
+  margin-top: 32px;
+  margin-left: 32px;
+  color: @color-white;
+  font-size: 20px;
+}
