@@ -1,0 +1,40 @@
+{
+  "name": "renovation-and-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"dev/less/**/*.less\" --syntax less",
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp styles",
+    "start": "gulp"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "editorconfig-cli": [
+    "*.json",
+    "*.js",
+    "dev/*.html",
+    "dev/js/**/*.js",
+    "dev/img/**/*.svg",
+    "dev/less/**/*.less"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "autoprefixer": "10.2.5",
+    "browser-sync": "2.26.14",
+    "gulp-less": "4.0.1",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "9.0.0",
+    "gulp-sourcemaps": "3.0.0",
+    "postcss": "8.2.8",
+    "stylelint": "13.13.1"
+  }
+}
