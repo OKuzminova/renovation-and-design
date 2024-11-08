@@ -9,6 +9,7 @@
     <link href="raw.githubusercontent.com/repalash/gilroy-free-webfont/fonts/Gilroy-Light.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.css" rel="stylesheet">
     <link href="https://raw.githubusercontent.com/repalash/gilroy-free-webfont/fonts/Gilroy-Extrabold.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   </head>
   <body class="page-body">
     <header class="header">
@@ -16,17 +17,17 @@
         <div><a href="#location" class="header__nav--icon header__nav--icon-location" title="">1</a></div>
         <div>
           <ul class="header__nav-menu">
-            <li><a href="#" title="Главная">Главная</a></li>
-            <li><a href="#" title="О компании">О&nbsp;компании</a></li>
-            <li><a href="#" title="Услуги">Услуги</a></li>
+            <li class="header__nav-menu--link header__nav-menu--link-position"><a href="#" title="Главная">Главная</a></li>
+            <li class="header__nav-menu--link"><a href="#" title="О компании">О&nbsp;компании</a></li>
+            <li class="header__nav-menu--link"><a href="#" title="Услуги">Услуги</a></li>
           </ul>
         </div>
         <div><a href="#" class="header__nav--icon header__nav--icon-logo" title="">2</a></div>
         <div>
           <ul class="header__nav-menu">
-            <li><a href="#" title="Цены">Цены</a></li>
-            <li><a href="#portfolio" title="Портфолио">Портфолио</a></li>
-            <li><a href="#contact" title="Контакты">Контакты</a></li>
+            <li class="header__nav-menu--link header__nav-menu--link-position-2"><a href="#" title="Цены">Цены</a></li>
+            <li class="header__nav-menu--link header__nav-menu--link-position-3"><a href="#portfolio" title="Портфолио">Портфолио</a></li>
+            <li class="header__nav-menu--link header__nav-menu--link-position-4"><a href="#contact" title="Контакты">Контакты</a></li>
           </ul>
         </div>
         <div><a href="tel:+79788128290" class="header__nav--icon header__nav--icon-tel" title="">3</a></div>
@@ -110,6 +111,25 @@
           </div>
           <div class="contact__map-form">
             <h3>Остались вопросы?</h3>
+            <form id="question" action="#" class="form contact__form" method="POST" target="_blank">
+              <label class="contact__label">
+                <span>Ваше имя</span>
+                <input class="name" placeholder="Иван Иванов" type="text">
+              </label>
+              <label class="contact__label">
+                <span>Телефон / E-mail</span>
+                <input class="email" placeholder="example@example.com" type="text">
+              </label>
+              <label class="contact__label">
+                <span>Ваше сообщение</span>
+                <textarea class="message" placeholder="Текст обращения"></textarea>
+              </label>
+              <p class="contact__form--privacy">Нажимая на кнопку «Получить консультацию», вы соглашаетесь<br>
+                на&nbsp;<a href="#" title="">обработку&nbsp;персональных данных</a></p>
+              <div>
+                <button class="button" type="submit" title="Получить консультацию">Получить&nbsp;консультацию</button>
+              </div>
+            </form>
           </div>
         </div>
 

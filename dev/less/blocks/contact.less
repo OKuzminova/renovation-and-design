@@ -5,16 +5,17 @@
   display: flex;
   gap: 10px;
   margin-bottom: 135px;
+  justify-content: space-between;
 }
 .contact__map-list {
-  flex-basis: 100%;
-  border: 1px solid @color-blue;
+  // flex-basis: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
   margin-bottom: 30px;
+  max-width: 610px;
   & div {
-    width: 340px;
+    min-width: 260px;
   }
 }
 
@@ -31,7 +32,69 @@
 
 .contact__map-form {
   flex-basis: 370px;
-  border: 1px solid @color-red;
+  width: 370px;
+}
+
+.contact__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  line-height: 12px;
+}
+.contact__label {
+  padding-bottom: 20px;
+  & input, & textarea {
+    width: 100%;
+    cursor: pointer;
+    border-bottom: 1px solid @color-grey-light;
+    font-size: 13px;
+    line-height: 24px;
+    &:hover, &:focus {
+      border-bottom: 1px solid @color-black;
+    }
+    &::placeholder {
+      color: @color-grey;
+      font-weight: 100 !important;
+    }
+  }
+}
+.message {
+  height: 24px;
+  background: no-repeat center/18px url('../../img/icon/clip.svg');
+  background-position: 100%;
+  &:hover {
+    background: no-repeat center/18px url('../../img/icon/clip-hover.svg');
+    background-position: 100%;
+  }
+}
+.contact__form--privacy {
+  color: @color-grey;
+  margin-bottom: 33px;
+  & a {
+    color: @color-grey;
+    text-decoration: underline dotted;
+    &:hover {
+      font-weight: normal;
+      color: @color-black;
+    }
+    &:active {
+      font-weight: normal;
+      color: @color-grey;
+    }
+    &:disabled {
+      font-weight: normal;
+      color: @color-grey-light;
+    }
+  }
+}
+button {
+  font-family: 'Gilroy', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
 }
 .contact__copyright {
   border-top: 1.5px solid @color-black;
