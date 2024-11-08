@@ -157,25 +157,25 @@ button {
   color: transparent;
 }
 .header__nav--icon-location {
-  background: no-repeat center / 18px url('../../img/icon/map-marker-big.svg');
+  background: no-repeat center / 18px url('..//img/icon/map-marker-big.svg');
   border-right: 1px solid #EBEBEB;
 }
 .header__nav--icon-location:hover {
   padding-inline: 33px 34px;
-  background: no-repeat center / 18px url('../../img/icon/map-marker-big-hover.svg');
+  background: no-repeat center / 18px url('..//img/icon/map-marker-big-hover.svg');
 }
 .header__nav--icon-logo {
-  background: no-repeat center / 30px url('../../img/icon/logo.svg');
+  background: no-repeat center / 30px url('..//img/icon/logo.svg');
 }
 .header__nav--icon-logo:hover {
-  background: no-repeat center / 30px url('../../img/icon/logo-hover.svg');
+  background: no-repeat center / 30px url('..//img/icon/logo-hover.svg');
 }
 .header__nav--icon-tel {
-  background: no-repeat center / 18px url('../../img/icon/phone.svg');
+  background: no-repeat center / 18px url('..//img/icon/phone.svg');
   border-left: 1px solid #EBEBEB;
 }
 .header__nav--icon-tel:hover {
-  background: no-repeat center / 18px url('../../img/icon/phone-hover.svg');
+  background: no-repeat center / 18px url('..//img/icon/phone-hover.svg');
 }
 .header__nav-menu {
   display: flex;
@@ -284,74 +284,74 @@ button {
 }
 .portfolio__card1 {
   grid-area: card1;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/portfolio/1.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//img/portfolio/1.jpg');
   background-repeat: no-repeat;
 }
 .portfolio__card1:hover {
-  background: url('../../img/portfolio/1.jpg');
+  background: url('..//img/portfolio/1.jpg');
   cursor: pointer;
 }
 .portfolio__card2 {
   grid-area: card2;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/portfolio/2.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//img/portfolio/2.jpg');
   background-repeat: no-repeat;
 }
 .portfolio__card2:hover {
-  background: url('../../img/portfolio/2.jpg');
+  background: url('..//img/portfolio/2.jpg');
   cursor: pointer;
 }
 .portfolio__card3 {
   grid-area: card3;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/portfolio/3.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//img/portfolio/3.jpg');
   background-repeat: no-repeat;
 }
 .portfolio__card3:hover {
-  background: url('../../img/portfolio/3.jpg');
+  background: url('..//img/portfolio/3.jpg');
   cursor: pointer;
 }
 .portfolio__card4 {
   grid-area: card4;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/portfolio/4.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//img/portfolio/4.jpg');
   background-repeat: no-repeat;
 }
 .portfolio__card4:hover {
-  background: url('../../img/portfolio/4.jpg');
+  background: url('..//img/portfolio/4.jpg');
   cursor: pointer;
 }
 .portfolio__card5 {
   grid-area: card5;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/portfolio/5.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//img/portfolio/5.jpg');
   background-repeat: no-repeat;
 }
 .portfolio__card5:hover {
-  background: url('../../img/portfolio/5.jpg');
+  background: url('..//img/portfolio/5.jpg');
   cursor: pointer;
 }
 .portfolio__card6 {
   grid-area: card6;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/portfolio/6.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//img/portfolio/6.jpg');
   background-repeat: no-repeat;
 }
 .portfolio__card6:hover {
-  background: url('../../img/portfolio/6.jpg');
+  background: url('..//img/portfolio/6.jpg');
   cursor: pointer;
 }
 .portfolio__card7 {
   grid-area: card7;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/portfolio/7.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//img/portfolio/7.jpg');
   background-repeat: no-repeat;
 }
 .portfolio__card7:hover {
-  background: url('../../img/portfolio/7.jpg');
+  background: url('..//img/portfolio/7.jpg');
   cursor: pointer;
 }
 .portfolio__card8 {
   grid-area: card8;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/portfolio/8.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//img/portfolio/8.jpg');
   background-repeat: no-repeat;
 }
 .portfolio__card8:hover {
-  background: url('../../img/portfolio/8.jpg');
+  background: url('..//img/portfolio/8.jpg');
   cursor: pointer;
 }
 .portfolio__title {
@@ -430,11 +430,11 @@ button {
 }
 .message {
   height: 24px;
-  background: no-repeat center / 18px url('../../img/icon/clip.svg');
+  background: no-repeat center / 18px url('..//img/icon/clip.svg');
   background-position: 100%;
 }
 .message:hover {
-  background: no-repeat center / 18px url('../../img/icon/clip-hover.svg');
+  background: no-repeat center / 18px url('..//img/icon/clip-hover.svg');
   background-position: 100%;
 }
 .contact__form--privacy {
