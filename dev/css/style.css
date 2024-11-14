@@ -276,7 +276,7 @@ button {
   position: absolute;
   top: 0px;
   left: 0px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../img/slider/services.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('..//img/slider/services.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100vw;
@@ -286,7 +286,7 @@ button {
   position: absolute;
   top: 0px;
   left: 0px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../img/slider/types-of-work.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('..//img/slider/types-of-work.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100vw;
@@ -296,7 +296,7 @@ button {
   position: absolute;
   top: 0px;
   left: 0px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../img/slider/design.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('..//img/slider/design.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100vw;
