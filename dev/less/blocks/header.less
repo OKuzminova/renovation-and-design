@@ -1,13 +1,16 @@
 .header {
-  margin-bottom: 136px;
+  width: 100%;
 }
 .header__nav {
   height: 85px;
+  width: inherit;
   border-bottom: 1px solid @color-grey-light;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  z-index: 5;
 }
 .header__nav--icon {
   display: block;
@@ -20,11 +23,17 @@
       padding-inline: 33px 34px;
       background: no-repeat center/18px url('..//img/icon/map-marker-big-hover.svg');
     }
+    &-white {
+      background: no-repeat center/18px url('..//img/icon/map-marker-big-white.svg');
+    }
   }
   &-logo {
     background: no-repeat center/30px url('..//img/icon/logo.svg');
     &:hover {
       background: no-repeat center/30px url('..//img/icon/logo-hover.svg');
+    }
+    &-white {
+      background: no-repeat center/30px url('..//img/icon/logo-white.svg');
     }
   }
   &-tel {
@@ -32,6 +41,9 @@
     border-left: 1px solid @color-grey-light;
     &:hover {
       background: no-repeat center/18px url('..//img/icon/phone-hover.svg');
+    }
+    &-white {
+      background: no-repeat center/18px url('..//img/icon/phone-white.svg');
     }
   }
 }
@@ -49,12 +61,17 @@
     position: absolute;
     bottom: -32px;
     width: 100%;
-    height: 1.5px;
+    height: 2px;
     background-color: @color-black;
-    // letter-spacing: -2px;
   }
   &:hover {
     border-right: 2.7px solid transparent;
+  }
+}
+.header__nav-white a {
+  color: @color-white;
+  &:hover::before {
+    background-color: @color-white;
   }
 }
 .header__nav-menu--link-position:hover {
@@ -71,59 +88,24 @@
 }
 
 .header__title {
+  width: 100vw;
+  margin: 85px auto 0px;
+  text-align: center;
   padding-block: 64px 84px;
+  position: absolute;
+  display: grid;
+  justify-content: center;
+  z-index: 5;
 }
-
-.header__nav-detail {
-  color: @color-white;
-  font-weight: bold;
-  font-size: 20px;
-  // background: no-repeat bottom/100% url('../../img/slider/Image.png');
-  background:
-		linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-		url('..//img/slider/Image.png');
-  background-repeat: no-repeat;
-	background-position: center;
-  background-size: cover;
-  padding-block: 152px 20px;
-  & ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: stretch;
-    text-align: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    & li {
-      padding-block: 31px 29px;
-      border-right: 1px solid rgba(255, 255, 255, 0.3);
-    }
+.header__services {
+  padding-top: 460px;
+}
+.header__title-svg {
+  text-align: center;
+  padding-bottom: 60px;
+  background: no-repeat center url('..//img/slider/v-moskve-i-moskovskoj-oblasti-black.svg');
+  margin-bottom: 44px;
+  &--white {
+    background: no-repeat center url('..//img/slider/v-moskve-i-moskovskoj-oblasti-white.svg');
   }
-  &--btn {
-    margin: 22px auto 3px;
-    text-align: center;
-    width: 38px;
-    height: 38px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background: no-repeat center/15px url('..//img/icon/arrow-down.svg');
-    border-radius: 50%;
-    &:hover {
-      border: 1px solid @color-white;
-    }
-  }
-}
-
-.header__section {
-  background-color: @color-red-light;
-}
-.header__section-bg {
-  background:
-		linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-		url('..//img/slider/services.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  margin-top: -465px;
-  padding-block: 600px 20px;
-  z-index: -1;
 }

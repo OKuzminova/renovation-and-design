@@ -1,0 +1,177 @@
+.services {
+  padding-block: 172px 20px;
+  display: block;
+  color: @color-white;
+  &__h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0px;
+    color: @color-white;
+    & a {
+      color: @color-white;
+    }
+  }
+}
+.services__bg {
+  background:
+		linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url('..//img/slider/base.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  &--red {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url('../../img/slider/services.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    padding-top: 632px;
+  }
+  &--green {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url('../../img/slider/types-of-work.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    padding-top: 632px;
+  }
+  &--blue {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url('../../img/slider/design.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    padding-top: 632px;
+  }
+  &--purple {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url('../../img/slider/repair.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    padding-top: 632px;
+  }
+}
+
+
+.services__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: stretch;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.services__list-item {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  &:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+.services__title--red, .services__title--green,
+.services__title--blue, .services__title--purple {
+  font-size: 64px;
+  line-height: 72px;
+  color: @color-white;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 18px;
+  width: 100vw;
+}
+
+.services__list-item--red {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  background-color: @color-red-light;
+  padding: 500px 40px 34px;
+  width: calc(25vw - 80px);
+  z-index: 2;
+}
+.services__list-item--green {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 25%;
+  background-color: @color-green-light;
+  padding: 500px 40px 34px;
+  width: calc(25vw - 80px);
+  z-index: 2;
+}
+.services__list-item--blue {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  background-color: @color-blue;
+  padding: 500px 40px 34px;
+  width: calc(25vw - 80px);
+  z-index: 2;
+}
+.services__list-item--purple {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 75%;
+  background-color: @color-purple;
+  padding: 500px 40px 34px;
+  width: calc(25vw - 80px);
+  z-index: 2;
+}
+
+.services__text--red, .services__text--green,
+.services__text--blue, .services__text--purple {
+  font-size: 14px;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  padding: 16px 0px 31px;
+}
+
+.services__btn {
+  margin: 22px auto 3px;
+  text-align: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: no-repeat center/15px url('..//img/icon/arrow-down.svg');
+  border-radius: 50%;
+}
+
+.services__btn-item--red, .services__btn-item--green,
+.services__btn-item--blue, .services__btn-item--purple {
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: no-repeat center/15px url('..//img/icon/arrow-down.svg');
+  transform: rotate(-90deg);
+  border-radius: 50%;
+  margin: 0 auto 12px;
+  cursor: pointer;
+  &:hover {
+    border: 2px solid @color-white;
+    width: 36px;
+    height: 36px;
+  }
+}
+

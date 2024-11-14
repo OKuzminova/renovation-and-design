@@ -51,7 +51,7 @@ body {
 }
 .page-body {
   display: grid;
-  grid-auto-rows: min-content 1fr min-content;
+  grid-auto-rows: 810px 1fr min-content;
   min-height: 100%;
 }
 .visually-hidden {
@@ -104,15 +104,12 @@ ul {
 p {
   margin: 0px;
 }
-// svg:hover {
-//   fill: @color-brown;
-// }
 
 h1 {
   font-size: 64px;
   line-height: 72px;
   text-align: center;
-  margin: 0px 0px 48px;
+  margin: 0px 0px 16px;
   & span {
     font-size: 62px;
     color: @color-white;
@@ -123,20 +120,14 @@ h1 {
     1px 1px 0 @color-black;
   }
 }
+.h1 {
+  width: 100vw;
+}
 h2 {
   margin: 0px 0px 48px;
   font-size: 32px;
   line-height: 40px;
   position: relative;
-  &::before {
-    content: "";
-    position: absolute;
-    top: 19.5px;
-    left: -80px;
-    width: 40px;
-    height: 1px;
-    background-color: @color-black;
-  }
   & span {
     font-size: 30px;
     color: @color-white;
@@ -146,6 +137,15 @@ h2 {
     -1px 1px 0 @color-black,
     1px 1px 0 @color-black;
   }
+}
+section > h2::before {
+  content: "";
+  position: absolute;
+  top: 19.5px;
+  left: -80px;
+  width: 40px;
+  height: 1px;
+  background-color: @color-black;
 }
 
 h3 {

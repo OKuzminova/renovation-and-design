@@ -1,6 +1,6 @@
 .button {
   border: 1px solid @color-grey;
-  padding: 10px 48px;
+  padding: 9px 48px;
   display: block;
   margin: 0 auto;
   width: min-content;
@@ -33,7 +33,19 @@
     background-color: @color-grey-light;
   }
 }
+.button__white {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: @color-white;
+  &:hover {
+    border: 1px solid @color-white;
+  }
+  &:active {
+    border: 1px solid @color-grey;
+  }
+  &::before {
+    background-color: @color-white;
+  }
+}
 .button-arrow {
-  // border: 2px solid @color-red;
   padding: 20px;
 }

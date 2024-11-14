@@ -3,19 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Renovation and design</title>
-    <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.webmanifest">
     <link href="https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.css" rel="stylesheet">
     <link href="raw.githubusercontent.com/repalash/gilroy-free-webfont/fonts/Gilroy-Light.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.css" rel="stylesheet">
     <link href="https://raw.githubusercontent.com/repalash/gilroy-free-webfont/fonts/Gilroy-Extrabold.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
   </head>
   <body class="page-body">
     <header class="header">
       <nav class="header__nav">
-        <div><a href="#location" class="header__nav--icon header__nav--icon-location" title="">1</a></div>
+        <div><a href="#location" class="header__nav--icon header__nav--icon-location" title="Адрес: Москва, ул. Уличная, д. 1, оф. 1">1</a></div>
         <div>
           <ul class="header__nav-menu">
             <li class="header__nav-menu--link header__nav-menu--link-position"><a href="#" title="Главная">Главная</a></li>
@@ -25,31 +26,72 @@
         </div>
         <div><a href="#" class="header__nav--icon header__nav--icon-logo" title="">2</a></div>
         <div>
-          <ul class="header__nav-menu">
+          <ul class="header__nav-menu header__nav-menu-right">
             <li class="header__nav-menu--link header__nav-menu--link-position-2"><a href="#" title="Цены">Цены</a></li>
             <li class="header__nav-menu--link header__nav-menu--link-position-3"><a href="#portfolio" title="Портфолио">Портфолио</a></li>
             <li class="header__nav-menu--link header__nav-menu--link-position-4"><a href="#contact" title="Контакты">Контакты</a></li>
           </ul>
         </div>
-        <div><a href="tel:+79788128290" class="header__nav--icon header__nav--icon-tel" title="">3</a></div>
+        <div><a href="tel:+79788128290" class="header__nav--icon header__nav--icon-tel" title="Заказать звонок 8 (800) 900-00-00">3</a></div>
       </nav>
       <div class="container header__title">
-        <h1><strong>Ремонт</strong> <span>и</span>&nbsp;дизайн <span>в&nbsp;Москве&nbsp;и&nbsp;Московской области</span></h1>
-        <div><a href="#" class="button" title="Оставить заявку">Оставить&nbsp;заявку</a></div>
+        <h1 class="h1">Ремонт <span>и</span> дизайн</h1>
+        <div class="services__title--red visually-hidden">Услуги по ремонту</div>
+        <div class="services__title--green visually-hidden">Виды работ по ремонту</div>
+        <div class="services__title--blue visually-hidden">Дизайн интерьера</div>
+        <div class="services__title--purple visually-hidden">Ремонт помещений</div>
+        <div class="header__title-svg"></div>
+        <div><a href="#question" class="button" title="Оставить заявку">Оставить&nbsp;заявку</a></div>
       </div>
-      <div class="header__nav-detail">
-        <ul>
-          <li class="header__section-1">Услуги по ремонту</li>
-          <li>Виды работ</li>
-          <li>Дизайн интерьера</li>
-          <li>Ремонт помещений</li>
-        </ul>
-        <div class="header__nav-detail--btn"><a href="#" class="button-arrow"></a></div>
+      <div class="header__services">
+        <div class="services services__bg">
+          <div class="services__list">
+            <div class="services__list-item">
+              <div class="services__red">
+                <h2 class="services__h2"><a href="#" title="Услуги по ремонту">Услуги по ремонту</a></h2>
+                <p class="services__text--red visually-hidden">
+                  С другой стороны реализация<br>намеченных плановых заданий<br> требуют от&nbsp;нас&nbsp;анализа.
+                </p>
+                <div class="services__btn-item--red visually-hidden"><a href="https://github.com/OKuzminova" title="" target="_blank" class="button-arrow"></a></div>
+              </div>
+            </div>
+            <div class="services__list-item">
+              <div class="services__green">
+                <h2 class="services__h2"><a href="#" title="Виды работ">Виды работ</a></h2>
+                <p class="services__text--green visually-hidden">
+                  С другой стороны реализация<br>намеченных плановых заданий<br> требуют от&nbsp;нас&nbsp;анализа.
+                </p>
+                <div class="services__btn-item--green visually-hidden"><a href="https://github.com/OKuzminova" title="" target="_blank" class="button-arrow"></a></div>
+              </div>
+            </div>
+            <div class="services__list-item">
+              <div class="services__blue">
+                <h2 class="services__h2"><a href="#" title="Дизайн интерьера">Дизайн интерьера</a></h2>
+                <p class="services__text--blue visually-hidden">
+                  С другой стороны реализация<br>намеченных плановых заданий<br> требуют от&nbsp;нас&nbsp;анализа.
+                </p>
+                <div class="services__btn-item--blue visually-hidden"><a href="https://github.com/OKuzminova" title="" target="_blank" class="button-arrow"></a></div>
+              </div>
+            </div>
+            <div class="services__list-item">
+              <div class="services__purple">
+                <h2 class="services__h2"><a href="#" title="Дизайн интерьера">Ремонт помещений</a></h2>
+                <p class="services__text--purple visually-hidden">
+                  С другой стороны реализация<br>намеченных плановых заданий<br> требуют от&nbsp;нас&nbsp;анализа.
+                </p>
+                <div class="services__btn-item--purple visually-hidden"><a href="https://github.com/OKuzminova" title="" target="_blank" class="button-arrow"></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="services__btn">
+            <a href="#" title="" class="button-arrow"></a>
+          </div>
+        </div>
       </div>
     </header>
 
-    <main>
-      <section id="portfolio" class="container">
+    <main id="portfolio">
+      <section class="container">
         <h2>Примеры <span>выполненных</span> работ</h2>
         <div class="portfolio">
           <div class="portfolio__card1">
