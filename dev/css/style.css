@@ -306,7 +306,7 @@ button {
   position: absolute;
   top: 0px;
   left: 0px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../img/slider/repair.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('..//img/slider/repair.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100vw;
